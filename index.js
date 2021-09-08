@@ -35,13 +35,10 @@ Do the following:
 
    HINT: no function required
 */
-var num1 = 10
-var num2 = 7
+let num1 = 10
+let num2 = 7
 if(num1 - num2 === 3){
-  var num1 = 3
-  console.log(num1)
-}
-else if(num1 - num2 != 3){
+  num1 = 3
   console.log(num1)
 }
 
@@ -58,7 +55,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+var year = "1999"
+Number(year)
 
 
 
